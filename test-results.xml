@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.035" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2019-05-16T18:58:34" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="Starting to run tests on index" timestamp="2019-05-16T18:58:34" tests="1" file="C:\Users\tal_o\Desktop\helloTest\testHelloworld\test\index.test.js" failures="0" time="0.035">
+    <testcase name="Starting to run tests on index Should run for more then 30 ms" time="0.035" classname="Should run for more then 30 ms">
+    </testcase>
+  </testsuite>
+</testsuites>

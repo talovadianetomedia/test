@@ -1,0 +1,20 @@
+{
+  "name": "webserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test -R mocha-junit-reporter --exit",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4"
+  },
+  "devDependencies": {
+    "mocha-junit-reporter": "^1.22.0"
+  }
+}
