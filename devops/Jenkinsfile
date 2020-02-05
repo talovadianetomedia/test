@@ -2,9 +2,12 @@ pipeline {
   agent any
   options { timestamps () }
   stages{
-      stage('Test'){
+      stage('Build'){
           steps{
-              echo 'Hello Part 2'
+              script{
+                  def customImage = docker.build("talovadianetomedia/test:${env.BUILD_ID}")
+                  customImage.push('kfir')
+            }
           }
       }
   }
